@@ -1,10 +1,15 @@
 {
+  "version": "1.1.0",
   "dependencies": {
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^10.0.3",
     "semantic-release": "^23.0.8"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3"
+    "@semantic-release/changelog": "^6.0.3",
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "release": "standard-version --no-verify"
   }
 }
