@@ -1,5 +1,5 @@
 {
-  "version": "1.6.1",
+  "version": "1.6.4",
   "dependencies": {
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^10.0.3",
@@ -10,6 +10,6 @@
     "standard-version": "^9.5.0"
   },
   "scripts": {
-    "release": "standard-version --no-verify"
+    "release": "standard-version -s --no-verify"
   }
 }
