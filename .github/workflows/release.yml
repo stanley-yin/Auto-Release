@@ -1,7 +1,12 @@
 name: Release
 
+# Run this workflow every time a new tag pushed to your repository
 on:
-  workflow_dispatch:
+  push:
+    # Pattern matched against refs/tags
+    tags:
+      - '*'           # Push events to every tag
+
 
 jobs:
   release:
